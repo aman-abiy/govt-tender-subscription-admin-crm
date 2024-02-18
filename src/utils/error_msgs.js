@@ -1,0 +1,1 @@
+export const ROLE_NOT_PERMITTED = 'Permission Denied!'

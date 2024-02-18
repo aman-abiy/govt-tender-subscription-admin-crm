@@ -1,0 +1,572 @@
+body {
+    background-color: #eff2f4;
+    overflow-x: hidden;
+}
+
+.login-page .auth-btn {
+    background-color: #3891f1;
+    color: #ffffff;
+}
+
+.login-page .login-w-phone-btn {
+    margin-top: 10px;
+    background-color: #dadadd;
+}
+
+.login-page .forgot-password {
+    color: rgb(93, 164, 219);
+    font-size: 15px;
+}
+
+.login-page .company-copyright {
+    font-size: 10px;
+}
+
+.login-page .company-copyright .company-name {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.login-page .company-copyright .company-name:hover {
+    cursor: pointer;
+}
+
+.login-page .company-copyright .company-name .name {
+    color: #007bff;
+}
+
+.login-page .company-copyright .company-name .desc {
+    color: #ee9d2c;
+}
+
+.copyright {
+    color: grey;
+    font-size: 13px;
+}
+
+.admin-dashboard-title {
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: #09488b;
+}
+
+.admin-dashboard-title .card .card-body {
+    padding: 10px 12px 8px 12px;
+}
+
+.admin-dashboard-title .title-card h4 {
+    color: #09488b;
+}
+
+.admin-dashboard-title .title-card .amount-paid {
+    margin-top: 8px;
+    margin-right: 20px;
+    color: rgb(55, 55, 55);
+}
+
+.admin-dashboard-title .count {
+    color: grey;
+    font-size: 13px;
+}
+
+.admin-dashboard-title .chart-card {
+    padding-left: 10px;
+}
+
+.admin-dashboard-title .chart-card .title,
+.admin-dashboard-title .app-users-info-card .title {
+    color: #636365!important
+}
+
+.admin-dashboard-title .chart-card hr {
+    border-color: #adadaf!important
+}
+
+.admin-dashboard-title .app-users-subs-info-card .card-body .row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.admin-dashboard-title .app-users-subs-info-card .badge {
+    font-size: 15px;
+}
+
+.admin-dashboard-title .app-users-subs-info-card .badge-success {
+    background-color: #26b383;
+}
+
+.admin-dashboard-title .app-users-subs-info-card .badge-danger {
+    background-color: #d62020;
+}
+
+.sidenav {
+    padding-left: 45px;
+    padding-right: 5px;
+    /* background-color: #1e4384; */
+}
+
+.sidenav .logo {
+    color: #b9b9c0;
+    font-weight: 600;
+}
+
+.sidenav hr {
+    border-color: #343434;
+    width: 100%;
+}
+
+.sidenav ul {
+    list-style: none;
+    width: 100%;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+}
+
+.sidenav ul .nav-items {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 0px;
+    margin-bottom: 12px;
+    padding: 5px;
+    text-decoration: unset;
+    color: #757576!important;
+    letter-spacing: 0.3px;
+}
+
+.sidenav ul .nav-items a:hover {
+    color: #d1d2d3;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.sidenav ul .nav-items a {
+    color: #757576!important;
+    text-decoration: unset;
+}
+
+.sidenav .selected .router-link {
+    font-weight: 500;
+    color: #d1d2d3!important;
+    text-shadow: 0.2px 0.2px 0.2px #d1d2d3;
+}
+
+.sidenav .selected .fa {
+    color: #d1d2d3!important;
+    text-shadow: 0.2px 0.2px 0.2px #d1d2d3!important;
+}
+
+.sidenav .nav-items .fa {
+    color: rgb(125, 124, 124);
+    margin-right: 15px;
+}
+
+.sidenav .footer {
+    color: #636365;
+    position: absolute;
+    bottom: 35px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.sidenav .footer .signed-in-user {
+    font-size: 15px;
+}
+
+.sidenav .footer p {
+    margin-bottom: 10px;
+}
+
+.sidenav .footer p:hover {
+    cursor: pointer;
+}
+
+.sidenav .footer .fa {
+    transform: rotate(180deg);
+    margin-right: 5px;
+}
+
+.dashboard-body {
+    background-color: #24242f;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.dashboard-body .content-section {
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.dashboard-body .card {
+    margin-bottom: 10px;
+}
+
+.dashboard-body .table th,
+.dashboard-body .table td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 14px;
+}
+
+.dashboard-body .table .title {
+    background-color: rgb(232, 232, 232);
+}
+
+.dashboard-body .table th {
+    font-weight: 500;
+}
+
+.dashboard-body .badge {
+    font-size: 11px;
+    padding-bottom: 3px;
+    margin-right: 5px;
+    letter-spacing: 0.3px;
+}
+
+.dashboard-body .badge-success {
+    background-color: #198754;
+}
+
+.dashboard-body .badge-success:hover {
+    background-color: #0a6b3e;
+}
+
+.dashboard-body .badge-danger {
+    background-color: #bb2d3b;
+}
+
+.dashboard-body .badge-danger:hover {
+    background-color: #b71b2a;
+}
+
+.dashboard-body .table .edit-btn,
+.dashboard-body .table .profile-btn,
+.dashboard-body .table .view-btn,
+.dashboard-body .table .edit-btn {
+    font-size: 13px;
+}
+
+.dashboard-body .table .appversion {
+    font-size: 13px;
+    color: grey!important;
+}
+
+.dashboard-body .table .email>a {
+    font-size: 14px;
+    color: grey!important;
+}
+
+.dashboard-body .table .phoneNumber>a {
+    font-size: 14px;
+    color: grey!important;
+}
+
+.toggle-badge {
+    cursor: pointer;
+}
+
+.dashboard-body .dropdown .dropdown-toggle {
+    border-color: #ced4da;
+}
+
+.dashboard-body .filter-options {
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dashboard-body .filter-btn {
+    background-color: #1e4384;
+    color: #eaecee;
+    padding: 0px;
+    height: 38px;
+    border-radius: 3px;
+}
+
+.dashboard-body .filter-btn:hover {
+    color: #eaecee;
+    padding: 0px;
+    height: 38px;
+}
+
+.dashboard-body .reset-btn {
+    border-color: grey;
+    color: grey;
+    padding: 0px;
+    height: 38px;
+    border-radius: 3px;
+}
+
+.dashboard-body .reset-btn:hover {
+    border-color: grey;
+    background-color: grey;
+    color: white;
+    padding: 0px;
+    height: 38px;
+}
+
+.dashboard-body .admin-dashboard-title .card-body .row {
+    padding-bottom: 0px;
+}
+
+.dashboard-body .admin-dashboard-title .add-user-btn {
+    background-color: #1e4384;
+    color: #eaecee;
+    padding: 0px;
+    padding-top: 4px;
+    height: 33px;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+
+.dashboard-body .tenders-dashboard .card-body table td {
+    font-size: 14px;
+}
+
+.dashboard-body .tenders-dashboard .card-body table .badge:hover {
+    cursor: pointer;
+}
+
+.dashboard-body .tenders-dashboard .card-body table .badge-secondary {
+    color: #757576;
+    background-color: #fcfdfd;
+    border: 1px solid #757576;
+}
+
+.dashboard-body .tenders-dashboard .card-body table .badge-secondary:hover {
+    color: #fcfdfd;
+    background-color: #757576;
+    border: 1px solid #757576;
+}
+
+.dashboard-body .tenders-dashboard .fa {
+    color: grey;
+    margin-right: 3px;
+    font-size: 11px;
+}
+
+.dashboard-body table .status-badge:hover {
+    cursor: pointer;
+}
+
+.dashboard-body .loading-alert {
+    animation-duration: 3s;
+    animation-name: slidein;
+    background-color: rgb(222, 221, 221);
+}
+
+.dashboard-body .loading-alert .spinner-border {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #29478f;
+}
+
+.nav-error-status-bar {
+    background-color: rgb(222, 221, 221);
+    font-weight: 500;
+    padding: 5px;
+}
+
+.nav-error-status-bar .errorMsg {
+    color: black;
+    margin: 0px;
+}
+
+.dashboard-body .users-nav .card-body {
+    padding: 12px 20px 12px 20px;
+}
+
+.dashboard-body .user-profile-btns .btn {
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.dashboard-body .user-profile-btns .active {
+    background-color: #1e4384;
+    color: #fcfdfd;
+}
+
+.dashboard-body .control-nav-btns {
+    margin-left: 15px;
+}
+
+.dashboard-body .control-nav-btns .btn {
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+}
+
+.dashboard-body .profile-card {
+    margin-bottom: 15px;
+}
+
+.dashboard-body .profile-card .card-header {
+    padding: 5px 20px 5px 20px;
+    color: rgb(75, 75, 75);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.dashboard-body .profile-card .card-body {
+    padding: 15px 20px 15px 20px;
+}
+
+.dashboard-body .profile-card .title,
+.dashboard-body .profile-card .value {
+    font-size: 14px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}
+
+.dashboard-body .profile-card hr {
+    margin-top: 3px!important;
+    margin-bottom: 3px!important;
+}
+
+.dashboard-body .profile-card .alert-settings-body hr {
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+}
+
+.dashboard-body .profile-card .value {
+    color: rgb(99, 98, 98);
+}
+
+.dashboard-body .profile-card .card-body .fa {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.dashboard-body .profile-card .card-body .verified-badge {
+    margin-left: 10px;
+}
+
+.dashboard-body .add-subscription-btn {
+    padding: 3px 8px 3px 8px;
+    font-size: 15px;
+    float: right;
+}
+
+.datePicker {
+    padding: 1px 5px 1px 5px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid rgb(68, 68, 68);
+    background-color: #eff2f4;
+    border-color: #ced4da;
+    color: #6c757d;
+}
+
+.datePicker:hover {
+    background-color: #eff2f4;
+}
+
+.datePicker:focus {
+    border: none !important;
+    box-shadow: none !important;
+    border: 2px solid grey;
+}
+
+.dashboard-body .profile-card .role-checkbox {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.dashboard-body .profile-card .role-checkbox label {
+    font-size: 15px;
+}
+
+.dashboard-body .profile-card .show-password-toggle:hover {
+    cursor: pointer;
+}
+
+.dashboard-body #tree {
+    --smart-color: rgb(100, 72, 72);
+    --smart-font-size: 13px;
+    --smart-tree-item-label-height: 20px;
+    /* --smart-tree-default-height: 650px; */
+    --smart-tree-default-width: 100%;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+    background-color: #f9f4f4;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: -1px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+
+.switch-field .active:checked+label {
+    background-color: #249a63;
+    border-color: #249a63;
+    color: white;
+    box-shadow: none;
+}
+
+.switch-field .inactive:checked+label {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+    border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+    border-radius: 0 4px 4px 0;
+}
+
+.profile-card .save-settings-btn {
+    padding: 2px;
+    font-size: 14px;
+    color: #eef0f1;
+    background-color: #1a79de;
+    border-color: #007bff;
+    border-radius: 3px;
+}
+
+.profile-card .save-settings-btn:hover {
+    color: #fcfdfd;
+    background-color: #09488b;
+    border-color: #09488b;
+}
+
+.date-filter .col {
+    margin: 0px;
+    padding: 0px;
+}
+
+.date-filter label {
+    font-size: 14px;
+    color: #6c757d;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+}

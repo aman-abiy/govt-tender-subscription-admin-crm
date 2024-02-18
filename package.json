@@ -1,0 +1,46 @@
+{
+    "name": "alpha_tenders_admin",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.1.2",
+        "@fortawesome/free-regular-svg-icons": "^6.1.2",
+        "@fortawesome/free-solid-svg-icons": "^6.1.2",
+        "@fortawesome/vue-fontawesome": "^2.0.8",
+        "@grapoza/vue-tree": "^4.0.3",
+        "@riophae/vue-treeselect": "^0.4.0",
+        "@syncfusion/ej2-vue-richtexteditor": "^18.2.46",
+        "apexcharts": "^3.35.5",
+        "axios": "^0.26.1",
+        "core-js": "^2.6.5",
+        "cozy-device-helper": "^1.17.0",
+        "dotenv": "^16.0.0",
+        "javascript-time-ago": "^2.3.13",
+        "maz-ui": "^2.3.13",
+        "smart-webcomponents": "^14.0.0",
+        "v-ztree": "^1.2.0",
+        "vee-validate": "^3.4.11",
+        "vue": "^2.6.10",
+        "vue-apexcharts": "^1.6.2",
+        "vue-plain-pagination": "^0.3.0",
+        "vue-router": "^3.0.3",
+        "vue-toast-notification": "^0.5.4",
+        "vuejs-tree": "^3.0.2",
+        "vuex": "^3.0.1",
+        "vuex-persistedstate": "^4.1.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.2",
+        "@vue/cli-plugin-eslint": "^3.0.2",
+        "@vue/cli-service": "^3.0.2",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "vue-template-compiler": "^2.6.10"
+    }
+}
